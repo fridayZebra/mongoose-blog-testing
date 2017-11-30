@@ -4,5 +4,7 @@ services:
 - mongodb 
 
 deploy::
-provicer: heroku
-app: guarded-beyond-65766
+provider: heroku
+app: desolate-wave-36534
+on: 
+  repo:hiroze/mongoose-blog-testing
