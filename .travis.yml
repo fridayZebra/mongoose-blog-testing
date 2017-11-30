@@ -2,3 +2,7 @@ language: node_js
 node_js: node
 services:
 - mongodb 
+
+deploy::
+provicer: heroku
+app: guarded-beyond-65766
